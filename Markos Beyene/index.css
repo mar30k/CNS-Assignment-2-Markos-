@@ -1,0 +1,30 @@
+body {
+background-color: whitesmoke;}
+.container nav {
+  font-size: small;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.container .row .col img {
+  width: 70%;
+  height: 90%;
+  border-radius: 60px;
+}
+
+.container .row .col img:hover {
+  border-radius: 200px;
+}
+
+.container .nav .nav-item .nav-link {
+  color: rgb(225, 29, 29);
+  margin: 20px;
+  background-color: rgb(212, 215, 99);
+}
+
+.container .nav .nav-item .nav-link:hover {
+  color: rgb(97, 128, 13);
+}
+
+.row .col .form-outline .form-control {
+  background-color: hsl(33, 26%, 93%);
+}
